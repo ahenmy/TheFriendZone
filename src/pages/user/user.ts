@@ -1,5 +1,11 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ArticlesPage } from '../articles/articles';
+import { CounselorsPage } from '../counselors/counselors';
+import { BoardsPage } from '../boards/boards';
+import { ChatsPage } from '../chats/chats';
+import { ZoneboxPage } from '../zonebox/zonebox';
+import { Story1Page } from '../story1/story1';
 
 
 /**
@@ -23,4 +29,29 @@ export class UserPage {
     console.log('ionViewDidLoad UserPage');
   }
 
+  articles() {
+    this.navCtrl.push(ArticlesPage);
+  }
+
+  counselors() {
+    this.navCtrl.push(CounselorsPage);
+  }
+
+  boards() {
+    this.navCtrl.push(BoardsPage);
+  }
+
+  chats() {
+    this.navCtrl.push(ChatsPage);
+  }
+
+  zonebox() {
+    this.navCtrl.push(ZoneboxPage);
+  }
+
+  story1() {
+    this.navCtrl.push(Story1Page);
+  }
+
+  
 }

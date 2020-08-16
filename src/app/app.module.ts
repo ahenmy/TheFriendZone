@@ -11,6 +11,15 @@ import { JoinPage } from '../pages/join/join';
 import { UserPage } from '../pages/user/user';
 import { ProfilePage } from '../pages/profile/profile';
 
+import { ArticlesPage } from '../pages/articles/articles';
+import { CounselorsPage } from '../pages/counselors/counselors';
+import { BoardsPage } from '../pages/boards/boards';
+import { ChatsPage } from '../pages/chats/chats';
+import { ZoneboxPage } from '../pages/zonebox/zonebox';
+import { Story1Page } from '../pages/story1/story1';
+
+
+
 @NgModule({
   declarations: [
     MyApp,
@@ -18,7 +27,13 @@ import { ProfilePage } from '../pages/profile/profile';
     LoginPage,
     JoinPage,
     UserPage,
-    ProfilePage
+    ProfilePage,
+    ArticlesPage,
+    CounselorsPage,
+    BoardsPage, 
+    ChatsPage,
+    ZoneboxPage,
+    Story1Page
   ],
   imports: [
     BrowserModule,
@@ -31,7 +46,13 @@ import { ProfilePage } from '../pages/profile/profile';
     LoginPage,
     JoinPage,
     UserPage,
-    ProfilePage
+    ProfilePage,
+    ArticlesPage,
+    CounselorsPage,
+    BoardsPage,
+    ChatsPage,
+    ZoneboxPage,
+    Story1Page
   ],
   providers: [
     StatusBar,

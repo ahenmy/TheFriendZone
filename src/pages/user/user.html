@@ -12,18 +12,20 @@
 <ion-content padding>
 
   <h6>Hi User!<br> Lets Get in the Zone!</h6>
+  <br>
+  <button ion-button clear (click)="zonebox()" item-right>You have Zonebox Messages!</button>
 
   <ion-card>
     <ion-item>
       <ion-avatar item-start>
         <ion-icon name="contact"></ion-icon>
       </ion-avatar>
-      <h2>Trending Article 1</h2>
+      <h2 (click)="story1()">Friendship Article 1</h2>
       <p>December 5, 2019</p>
     </ion-item>
-    <img src="assets\imgs/Friends.JPG">
+    <img (click)="story1()" src="assets/imgs/Friends.JPG">
 
-    <ion-card-content>
+    <ion-card-content (click)="story1()">
       <p>"Friendships can prove to be more important than romantic reilationships... e pluribus unum pluralbus e"
         e pluribus unum pluralbus e pluribus unum pluralbus e pluribus unum pluralbus e pluribus unum pluralbus"
       </p>
@@ -50,6 +52,12 @@
     </ion-row>
 
   </ion-card>
-
+  <div>
+    <button ion-button clear (click)="articles()">More Articles</button>
+  </div>
+  <button ion-button clear (click)="counselors()" item-left>Check out Counselor Pages</button>
+  <div>
+    <button ion-button clear (click)="boards()" item-left>Popular Message Board Posts</button>
+  </div>
 
 </ion-content>
