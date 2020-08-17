@@ -1,5 +1,13 @@
 
 page-home{
+   
+
+    .no-scroll .scroll-content {
+        overflow: hidden;
+
+    }
+
+} 
     #topButtons{
         display: flex;
         flex-direction: row;
@@ -7,12 +15,20 @@ page-home{
     #topButtons button{
         flex: 1;
     }
-}
+
 
 ion-page.home{
-    background-image: url('../../img/letsstart.jpg');
+    .bg-image{
+        background-image: url ('../assets/imgs/Friends.JPG');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
 }
 
 ion-page.home > ion-content{
   background-color: transparent;
 }
+
+.vertical-center{ 
+    display: flex; align-items: center; justify-content: center;}

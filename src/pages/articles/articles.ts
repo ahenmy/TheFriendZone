@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { CounselorsPage } from '../counselors/counselors';
+import { BoardsPage } from '../boards/boards';
 
 /**
  * Generated class for the ArticlesPage page.
@@ -21,5 +23,15 @@ export class ArticlesPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad ArticlesPage');
   }
+
+  counselors() {
+    this.navCtrl.push(CounselorsPage);
+  }
+
+  boards() {
+    this.navCtrl.push(BoardsPage);
+  }
+
+
 
 }

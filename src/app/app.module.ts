@@ -17,6 +17,8 @@ import { BoardsPage } from '../pages/boards/boards';
 import { ChatsPage } from '../pages/chats/chats';
 import { ZoneboxPage } from '../pages/zonebox/zonebox';
 import { Story1Page } from '../pages/story1/story1';
+import { MessageDetail } from '../pages/message-detail/message-detail';
+import { NewMessage } from '../pages/new-message/new-message';
 
 
 
@@ -33,7 +35,9 @@ import { Story1Page } from '../pages/story1/story1';
     BoardsPage, 
     ChatsPage,
     ZoneboxPage,
-    Story1Page
+    Story1Page,
+    MessageDetail,
+    NewMessage
   ],
   imports: [
     BrowserModule,
@@ -52,7 +56,9 @@ import { Story1Page } from '../pages/story1/story1';
     BoardsPage,
     ChatsPage,
     ZoneboxPage,
-    Story1Page
+    Story1Page,
+    NewMessage,
+    MessageDetail
   ],
   providers: [
     StatusBar,
