@@ -37,7 +37,8 @@ import { NewMessage } from '../pages/new-message/new-message';
     ZoneboxPage,
     Story1Page,
     MessageDetail,
-    NewMessage
+    NewMessage,
+    
   ],
   imports: [
     BrowserModule,
