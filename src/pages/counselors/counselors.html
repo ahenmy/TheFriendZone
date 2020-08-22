@@ -18,7 +18,7 @@
       <ion-avatar item-start>
         <ion-icon name="contact"></ion-icon>
       </ion-avatar>
-      <h2>Jan Newman </h2>
+        <h2 (click)="counselorprofile()">Jan Newman</h2>
       <p>New Way of Thinking Counseling</p>
     </ion-item>
     <img src="assets/imgs/mindfulbanner3.PNG">
@@ -50,7 +50,7 @@
       <ion-avatar item-start>
         <ion-icon name="contact"></ion-icon>
       </ion-avatar>
-      <h2>Paul Carty</h2>
+      <h2 (click)="counselorprofile1()">Paul Carty</h2>
       <p>Better Life Centers</p>
     </ion-item>
     <img src="assets/imgs/mindfulbanner2.PNG">
@@ -82,7 +82,7 @@
       <ion-avatar item-start>
         <ion-icon name="contact"></ion-icon>
       </ion-avatar>
-      <h2>Lucy Hale</h2>
+      <h2 (click)="counselorprofile2()">Lucy Hale</h2>
       <p>We've Gotcha - Life Coaches</p>
     </ion-item>
     <img src="assets/imgs/mindfulbanner1.PNG">
@@ -108,7 +108,7 @@
     </ion-row>
   </ion-card>
   
-  <button ion-button clear item-left>Counselor Directory</button>
+  <button ion-button clear (click)="counselordirectory()"item-left>Counselor Directory</button>
   <div>
     <button ion-button clear (click)="boards()" item-left>Start a Dissuction (Boards)</button>
   </div>

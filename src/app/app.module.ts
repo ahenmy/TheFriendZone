@@ -20,6 +20,15 @@ import { Story1Page } from '../pages/story1/story1';
 import { MessageDetail } from '../pages/message-detail/message-detail';
 import { NewMessage } from '../pages/new-message/new-message';
 
+import { Userprofile1Page } from '../pages/userprofile1/userprofile1';
+import { Userprofile2Page } from '../pages/userprofile2/userprofile2';
+
+import { Counselorprofile1Page } from '../pages/counselorprofile1/counselorprofile1';
+import { Counselorprofile2Page } from '../pages/counselorprofile2/counselorprofile2';
+import { CounselorprofilePage } from '../pages/counselorprofile/counselorprofile';
+import { CounselordirectoryPage } from '../pages/counselordirectory/counselordirectory';
+import { GenericcounselorPage } from '../pages/genericcounselor/genericcounselor';
+
 
 
 @NgModule({
@@ -38,6 +47,14 @@ import { NewMessage } from '../pages/new-message/new-message';
     Story1Page,
     MessageDetail,
     NewMessage,
+    Userprofile1Page,
+    Userprofile2Page,
+    CounselorprofilePage,
+    Counselorprofile1Page,
+    Counselorprofile2Page,
+    CounselordirectoryPage,
+    GenericcounselorPage
+    
     
   ],
   imports: [
@@ -59,7 +76,14 @@ import { NewMessage } from '../pages/new-message/new-message';
     ZoneboxPage,
     Story1Page,
     NewMessage,
-    MessageDetail
+    MessageDetail,
+    Userprofile1Page,
+    Userprofile2Page,
+    CounselorprofilePage,
+    Counselorprofile1Page,
+    Counselorprofile2Page,
+    CounselordirectoryPage,
+    GenericcounselorPage
   ],
   providers: [
     StatusBar,

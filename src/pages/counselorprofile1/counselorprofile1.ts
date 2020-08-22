@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-
 /**
- * Generated class for the BoardsPage page.
+ * Generated class for the Counselorprofile1Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-boards',
-  templateUrl: 'boards.html',
+  selector: 'page-counselorprofile1',
+  templateUrl: 'counselorprofile1.html',
 })
-export class BoardsPage {
+export class Counselorprofile1Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad BoardsPage');
+    console.log('ionViewDidLoad Counselorprofile1Page');
   }
 
 }

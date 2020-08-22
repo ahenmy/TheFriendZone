@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { CounselorsPage } from '../counselors/counselors';
 import { BoardsPage } from '../boards/boards';
+import { Story1Page } from '../story1/story1';
 
 /**
  * Generated class for the ArticlesPage page.
@@ -32,6 +33,8 @@ export class ArticlesPage {
     this.navCtrl.push(BoardsPage);
   }
 
-
+  story1() {
+    this.navCtrl.push(Story1Page);
+  }
 
 }
