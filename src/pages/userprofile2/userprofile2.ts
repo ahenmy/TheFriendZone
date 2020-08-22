@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ZoneboxPage } from '../zonebox/zonebox';
 
 /**
  * Generated class for the Userprofile2Page page.
@@ -21,5 +22,10 @@ export class Userprofile2Page {
   ionViewDidLoad() {
     console.log('ionViewDidLoad Userprofile2Page');
   }
+  zonebox() {
+    this.navCtrl.push(ZoneboxPage);
+  }
+  
+
 
 }
