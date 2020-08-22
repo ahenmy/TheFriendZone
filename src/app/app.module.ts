@@ -22,12 +22,16 @@ import { NewMessage } from '../pages/new-message/new-message';
 
 import { Userprofile1Page } from '../pages/userprofile1/userprofile1';
 import { Userprofile2Page } from '../pages/userprofile2/userprofile2';
+import { Userprofile3Page } from '../pages/userprofile3/userprofile3';
+import {UserprofilepagePage} from '../pages/userprofilepage/userprofilepage';
 
 import { Counselorprofile1Page } from '../pages/counselorprofile1/counselorprofile1';
 import { Counselorprofile2Page } from '../pages/counselorprofile2/counselorprofile2';
 import { CounselorprofilePage } from '../pages/counselorprofile/counselorprofile';
 import { CounselordirectoryPage } from '../pages/counselordirectory/counselordirectory';
 import { GenericcounselorPage } from '../pages/genericcounselor/genericcounselor';
+
+
 
 
 
@@ -49,6 +53,8 @@ import { GenericcounselorPage } from '../pages/genericcounselor/genericcounselor
     NewMessage,
     Userprofile1Page,
     Userprofile2Page,
+    Userprofile3Page,
+    UserprofilepagePage,
     CounselorprofilePage,
     Counselorprofile1Page,
     Counselorprofile2Page,
@@ -79,6 +85,8 @@ import { GenericcounselorPage } from '../pages/genericcounselor/genericcounselor
     MessageDetail,
     Userprofile1Page,
     Userprofile2Page,
+    Userprofile3Page,
+    UserprofilepagePage,
     CounselorprofilePage,
     Counselorprofile1Page,
     Counselorprofile2Page,
